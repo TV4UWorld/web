@@ -63,11 +63,27 @@ const answers = {
 // Prikaz odgovora prilikom klika na pitanje
 document.querySelectorAll('.accordion').forEach((button) => {
     button.addEventListener('click', () => {
-        const question = button.textContent.trim(); // Dohvati pitanje iz gumba
+        const question = button.textContent.trim();
         const answer = answers[question] || "Odgovor nije dostupan.";
-        
-        // Prikaz odgovora u desnom panelu
         const answerPanel = document.getElementById('answer-text');
-        answerPanel.innerHTML = answer; // Koristi innerHTML za interpretaciju HTML-a
+        answerPanel.innerHTML = answer;
     });
 });
+
+// Funkcija za postavljanje statusa na AKTIVNA
+function setActiveStatus() {
+    document.getElementById('service-status').textContent = 'AKTIVNA';
+    document.getElementById('status-light').className = 'status-light active';
+    document.getElementById('reason').textContent = 'Sve usluge su trenutno dostupne.';
+}
+
+// Funkcija za postavljanje statusa na NEAKTIVNA
+function setInactiveStatus() {
+    document.getElementById('service-status').textContent = 'NEAKTIVNA';
+    document.getElementById('status-light').className = 'status-light inactive';
+    document.getElementById('reason').textContent = 'Razlog: Planirani radovi.';
+}
+
+// Dodavanje event listenera na gumbe
+document.getElementById('set-active').addEventListener('click', setActiveStatus);
+document.getElementById('set-inactive').addEventListener('click', setInactiveStatus);
