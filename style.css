@@ -71,12 +71,14 @@ header h1 {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 /* Vertikalni meni */
 .menu {
     flex: 0 0 250px;
     text-align: left;
+    margin-bottom: 20px; /* Razmak za mobilne uređaje */
 }
 
 .accordion {
@@ -105,10 +107,67 @@ header h1 {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: left;
+    min-width: 300px; /* Osigurava minimalnu širinu */
 }
 
 .answer-panel p {
     margin: 0;
     font-size: 1rem;
     color: #333;
+}
+
+/* Responzivnost */
+@media (max-width: 1024px) {
+    .content {
+        flex-direction: column; /* Meni i sadržaj prikazuju se jedan ispod drugog */
+        align-items: center;
+    }
+    
+    .menu {
+        flex: 0 0 auto; /* Meni zauzima cijelu širinu */
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .answer-panel {
+        width: 100%; /* Pruža se preko cijelog ekrana */
+        min-width: auto; /* Uklanja minimalnu širinu */
+    }
+
+    header h1 {
+        font-size: 1.8rem; /* Smanjenje veličine naslova */
+    }
+}
+
+@media (max-width: 768px) {
+    .status h2 {
+        flex-direction: column; /* Status se prikazuje vertikalno */
+    }
+
+    header img {
+        width: 60px; /* Smanjena veličina loga */
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .accordion {
+        font-size: 0.9rem; /* Smanjena veličina teksta u gumbima */
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px; /* Smanjen razmak za manje uređaje */
+    }
+
+    .status p {
+        font-size: 0.8rem; /* Smanjen tekst u statusu */
+    }
+
+    .answer-panel p {
+        font-size: 0.9rem; /* Smanjen tekst odgovora */
+    }
 }
