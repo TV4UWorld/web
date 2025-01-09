@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header img {
-    width: 80px; /* Povećana veličina loga */
+    width: 80px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -70,6 +70,7 @@ header h1 {
 .content {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -77,8 +78,8 @@ header h1 {
 /* Vertikalni meni */
 .menu {
     flex: 0 0 250px;
-    text-align: left;
-    margin-bottom: 20px; /* Razmak za mobilne uređaje */
+    text-align: center; /* Centriranje teksta u gumbima */
+    margin-bottom: 20px;
 }
 
 .accordion {
@@ -88,7 +89,7 @@ header h1 {
     padding: 10px 20px;
     background-color: #007BFF;
     color: #ffffff;
-    text-align: left;
+    text-align: center; /* Centriranje teksta unutar gumba */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -106,8 +107,8 @@ header h1 {
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    min-width: 300px; /* Osigurava minimalnu širinu */
+    text-align: center; /* Centriranje sadržaja odgovora */
+    min-width: 300px;
 }
 
 .answer-panel p {
@@ -119,23 +120,17 @@ header h1 {
 /* Responzivnost */
 @media (max-width: 1024px) {
     .content {
-        flex-direction: column; /* Meni i sadržaj prikazuju se jedan ispod drugog */
+        flex-direction: column; /* Gumbi i odgovori jedan ispod drugog */
         align-items: center;
     }
-    
+
     .menu {
-        flex: 0 0 auto; /* Meni zauzima cijelu širinu */
-        width: 100%;
-        margin-bottom: 20px;
+        width: 100%; /* Gumbi se šire preko cijele širine */
+        text-align: center;
     }
 
     .answer-panel {
-        width: 100%; /* Pruža se preko cijelog ekrana */
-        min-width: auto; /* Uklanja minimalnu širinu */
-    }
-
-    header h1 {
-        font-size: 1.8rem; /* Smanjenje veličine naslova */
+        width: 100%; /* Odgovor se širi preko cijelog ekrana */
     }
 }
 
@@ -156,6 +151,11 @@ header h1 {
         font-size: 0.9rem; /* Smanjena veličina teksta u gumbima */
         padding: 8px 15px;
     }
+
+    .menu {
+        align-items: center;
+        text-align: center; /* Gumbi centrirani na sredinu */
+    }
 }
 
 @media (max-width: 480px) {
@@ -169,5 +169,10 @@ header h1 {
 
     .answer-panel p {
         font-size: 0.9rem; /* Smanjen tekst odgovora */
+    }
+
+    .accordion {
+        font-size: 0.85rem; /* Dodatno smanjen tekst u gumbima za male ekrane */
+        padding: 10px;
     }
 }
