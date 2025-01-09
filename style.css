@@ -108,7 +108,7 @@ header h1 {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: left;
-    margin-top: -10px; /* Podiže odgovore bliže pitanjima */
+    margin-top: -20px; /* Smanjuje razmak između pitanja i odgovora */
     min-width: 300px;
 }
 
@@ -137,6 +137,7 @@ header h1 {
     .answer-panel {
         width: 100%;
         text-align: center; /* Odgovori centrirani */
+        margin-top: -15px; /* Još bliže odgovori na manjim ekranima */
     }
 }
 
@@ -164,7 +165,7 @@ header h1 {
     }
 
     .answer-panel {
-        margin-top: -5px; /* Još bliži odgovori */
+        margin-top: -10px; /* Minimalan razmak između gumba i odgovora */
     }
 }
 
@@ -187,6 +188,6 @@ header h1 {
     }
 
     .answer-panel {
-        margin-top: -2px; /* Odgovori još bliže na manjim ekranima */
+        margin-top: -5px; /* Skoro spojen razmak za vrlo male uređaje */
     }
 }
