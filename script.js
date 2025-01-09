@@ -69,21 +69,3 @@ document.querySelectorAll('.accordion').forEach((button) => {
         answerPanel.innerHTML = answer;
     });
 });
-
-// Funkcija za postavljanje statusa na AKTIVNA
-function setActiveStatus() {
-    document.getElementById('service-status').textContent = 'AKTIVNA';
-    document.getElementById('status-light').className = 'status-light active';
-    document.getElementById('reason').textContent = 'Sve usluge su trenutno dostupne.';
-}
-
-// Funkcija za postavljanje statusa na NEAKTIVNA
-function setInactiveStatus() {
-    document.getElementById('service-status').textContent = 'NEAKTIVNA';
-    document.getElementById('status-light').className = 'status-light inactive';
-    document.getElementById('reason').textContent = 'Razlog: Planirani radovi.';
-}
-
-// Dodavanje event listenera na gumbe
-document.getElementById('set-active').addEventListener('click', setActiveStatus);
-document.getElementById('set-inactive').addEventListener('click', setInactiveStatus);
