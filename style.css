@@ -6,16 +6,27 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-header h1 {
+header {
     text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+header h1 {
     font-size: 2.5rem;
     color: #333;
-    margin-bottom: 10px;
+    margin: 10px 0 0; /* Razmak ispod loga */
 }
 
 .status {
@@ -25,6 +36,34 @@ header h1 {
 
 .status h2 {
     color: #007BFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.status-light {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: blink 1s infinite;
+}
+
+.status-light.active {
+    background-color: green;
+}
+
+.status-light.inactive {
+    background-color: red;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
 }
 
 .status p {
@@ -32,12 +71,14 @@ header h1 {
     font-style: italic;
 }
 
-.accordion-container {
-    border-top: 2px solid #ccc;
+.content {
+    display: flex;
 }
 
-.accordion-item {
-    margin-bottom: 10px;
+.menu {
+    flex: 0 0 250px;
+    border-right: 2px solid #ccc;
+    padding-right: 20px;
 }
 
 .accordion {
@@ -50,6 +91,7 @@ header h1 {
     border: none;
     outline: none;
     transition: background-color 0.3s;
+    margin-bottom: 5px;
 }
 
 .accordion:hover {
@@ -62,8 +104,14 @@ header h1 {
     display: none;
     border: 1px solid #ccc;
     border-top: none;
+    margin-bottom: 5px;
 }
 
 .panel p {
     margin: 0;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
 }
