@@ -78,18 +78,18 @@ header h1 {
 /* Vertikalni meni */
 .menu {
     flex: 0 0 250px;
-    text-align: center; /* Centriranje teksta u gumbima */
+    text-align: center; /* Centriranje gumba */
     margin-bottom: 20px;
 }
 
 .accordion {
     display: block;
-    width: 100%;
-    margin-bottom: 10px;
+    width: 90%; /* Smanjena širina gumba za bolje centriranje */
+    margin: 0 auto 10px auto; /* Gumbi centrirani po horizontali */
     padding: 10px 20px;
     background-color: #007BFF;
     color: #ffffff;
-    text-align: center; /* Centriranje teksta unutar gumba */
+    text-align: center;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -103,11 +103,12 @@ header h1 {
 /* Panel za odgovore */
 .answer-panel {
     flex: 1;
-    padding: 20px;
+    padding: 15px;
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centriranje sadržaja odgovora */
+    text-align: left;
+    margin-top: -10px; /* Podiže odgovore bliže pitanjima */
     min-width: 300px;
 }
 
@@ -120,27 +121,32 @@ header h1 {
 /* Responzivnost */
 @media (max-width: 1024px) {
     .content {
-        flex-direction: column; /* Gumbi i odgovori jedan ispod drugog */
+        flex-direction: column;
         align-items: center;
     }
 
     .menu {
-        width: 100%; /* Gumbi se šire preko cijele širine */
-        text-align: center;
+        width: 100%;
+    }
+
+    .accordion {
+        width: 90%; /* Centriranje gumba */
+        margin: 0 auto 10px auto;
     }
 
     .answer-panel {
-        width: 100%; /* Odgovor se širi preko cijelog ekrana */
+        width: 100%;
+        text-align: center; /* Odgovori centrirani */
     }
 }
 
 @media (max-width: 768px) {
     .status h2 {
-        flex-direction: column; /* Status se prikazuje vertikalno */
+        flex-direction: column;
     }
 
     header img {
-        width: 60px; /* Smanjena veličina loga */
+        width: 60px;
     }
 
     header h1 {
@@ -148,31 +154,39 @@ header h1 {
     }
 
     .accordion {
-        font-size: 0.9rem; /* Smanjena veličina teksta u gumbima */
+        font-size: 0.9rem;
         padding: 8px 15px;
     }
 
     .menu {
         align-items: center;
-        text-align: center; /* Gumbi centrirani na sredinu */
+        text-align: center;
+    }
+
+    .answer-panel {
+        margin-top: -5px; /* Još bliži odgovori */
     }
 }
 
 @media (max-width: 480px) {
     .container {
-        padding: 10px; /* Smanjen razmak za manje uređaje */
+        padding: 10px;
     }
 
     .status p {
-        font-size: 0.8rem; /* Smanjen tekst u statusu */
+        font-size: 0.8rem;
     }
 
     .answer-panel p {
-        font-size: 0.9rem; /* Smanjen tekst odgovora */
+        font-size: 0.9rem;
     }
 
     .accordion {
-        font-size: 0.85rem; /* Dodatno smanjen tekst u gumbima za male ekrane */
+        font-size: 0.85rem;
         padding: 10px;
+    }
+
+    .answer-panel {
+        margin-top: -2px; /* Odgovori još bliže na manjim ekranima */
     }
 }
