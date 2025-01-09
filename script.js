@@ -69,3 +69,7 @@ document.querySelectorAll('.accordion').forEach((button) => {
         answerPanel.innerHTML = answer;
     });
 });
+
+document.getElementById('service-status').textContent = 'AKTIVNA';
+document.getElementById('status-light').className = 'status-light active';
+document.getElementById('reason').textContent = 'Sve usluge su trenutno dostupne.';
