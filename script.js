@@ -41,14 +41,23 @@ const answers = {
         </p>
     `,
     "Instalacija i registracija na ProtonVPN.": `
-        <strong>Android:</strong> Većina pametnih telefona i tableta koristi Android. Proton VPN aplikaciju možete besplatno preuzeti <a href="https://protonvpn.com/free-vpn/android" target="_blank">ovdje</a>.<br><br>
-        <strong>iOS:</strong> Ako imate iPhone ili iPad, Proton VPN možete besplatno preuzeti <a href="https://protonvpn.com/free-vpn/ios" target="_blank">ovdje</a>.<br><br>
-        <strong>Windows:</strong> Proton VPN je dostupan za besplatno preuzimanje za Windows uređaje <a href="https://protonvpn.com/free-vpn/windows/" target="_blank">ovdje</a>.<br><br>
-        <strong>macOS:</strong> Za korisnike Apple Mac računala, Proton VPN možete instalirati <a href="https://protonvpn.com/free-vpn/macos" target="_blank">ovdje</a>.<br><br>
-        <strong>Linux:</strong> Linux korisnici mogu preuzeti Proton VPN za svoju distribuciju <a href="https://protonvpn.com/free-vpn/linux" target="_blank">ovdje</a>.<br><br>
-        <strong>Proširenje za preglednik:</strong> Dostupno za korisnike s plaćenim Proton VPN planom na <a href="#" target="_blank">Chrome</a> i <a href="https://protonvpn.com/support/browser-extensions/" target="_blank">Firefox</a>.
+        <strong>Android:</strong> Većina pametnih telefona i tableta koristi Android. Proton VPN aplikaciju možete besplatno preuzeti <a href="#" target="_blank">ovdje</a>.<br><br>
+        <strong>iOS:</strong> Ako imate iPhone ili iPad, Proton VPN možete besplatno preuzeti <a href="#" target="_blank">ovdje</a>.<br><br>
+        <strong>Windows:</strong> Proton VPN je dostupan za besplatno preuzimanje za Windows uređaje <a href="#" target="_blank">ovdje</a>.<br><br>
+        <strong>macOS:</strong> Za korisnike Apple Mac računala, Proton VPN možete instalirati <a href="#" target="_blank">ovdje</a>.<br><br>
+        <strong>Linux:</strong> Linux korisnici mogu preuzeti Proton VPN za svoju distribuciju <a href="#" target="_blank">ovdje</a>.
     `,
-    "Cjenik usluge i plaćanje.": "Cijena usluge ovisi o odabranom paketu. Plaćanje je moguće izvršiti putem kreditnih kartica, PayPala ili drugih dostupnih metoda. Detalje o cijenama i paketima možete pronaći na našoj stranici Cjenik."
+    "Cjenik usluge i plaćanje.": `
+        <h3>Cjenik usluge</h3>
+        <ul>
+            <li>1 mjesec - €10</li>
+            <li>3 mjeseca - €30</li>
+            <li>6 mjeseci - €55</li>
+            <li>12 mjeseci - €100</li>
+        </ul>
+        <p>Za dodatne informacije i upute oko plaćanja, kontaktirajte nas putem WhatsAppa klikom na sljedeći link:</p>
+        <a href="https://wa.me/385976688910?text=Pozdrav,%20želim%20postati%20Vaš%20korisnik%20i%20platiti%20uslugu." target="_blank">Kontaktirajte nas na WhatsApp</a>
+    `
 };
 
 // Prikaz odgovora prilikom klika na pitanje
