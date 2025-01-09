@@ -1,55 +1,45 @@
-/* General Styles */
+/* Opći stilovi */
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
     color: #333;
+    text-align: center;
 }
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Header */
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-header .logo {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-header h1 {
-    font-size: 2rem;
-    color: #333;
-    margin: 0;
-}
-
-/* Status Section */
-.status {
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 10px;
+    margin: 50px auto;
     background-color: #ffffff;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.status h2 {
-    font-size: 1.2rem;
+/* Header */
+header img {
+    width: 80px; /* Povećana veličina loga */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2rem;
     margin: 0;
+    color: #007BFF;
+}
+
+/* Status sekcija */
+.status {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.status h2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +50,6 @@ header h1 {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    animation: blink 1s infinite;
 }
 
 .status-light.active {
@@ -71,72 +60,55 @@ header h1 {
     background-color: red;
 }
 
-@keyframes blink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.5;
-    }
-}
-
 .status p {
+    margin-top: 5px;
     font-size: 0.9rem;
     color: #666;
-    margin: 5px 0 0;
 }
 
-/* Content Layout */
+/* Layout */
 .content {
     display: flex;
-    width: 100%;
+    justify-content: center;
+    gap: 20px;
 }
 
-/* Vertical Menu */
+/* Vertikalni meni */
 .menu {
     flex: 0 0 250px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-right: 20px;
+    text-align: left;
 }
 
 .accordion {
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
+    display: block;
     width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #ffffff;
     text-align: left;
     border: none;
-    outline: none;
     border-radius: 5px;
-    margin-bottom: 5px;
-    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .accordion:hover {
     background-color: #0056b3;
-    transform: scale(1.02);
 }
 
-/* Answer Panel */
+/* Panel za odgovore */
 .answer-panel {
     flex: 1;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    min-height: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 .answer-panel p {
     margin: 0;
-    font-size: 1.2rem;
-    color: #555;
+    font-size: 1rem;
+    color: #333;
 }
