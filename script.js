@@ -70,7 +70,7 @@ document.querySelectorAll('.accordion').forEach((button) => {
     });
 });
 
-document.getElementById('service-status').textContent = 'NEAKTIVNA';
-document.getElementById('status-light').className = 'status-light inactive';
-document.getElementById('reason').textContent = 'Razlog: Planirani radovi.';
+document.getElementById('service-status').textContent = 'AKTIVNA';
+document.getElementById('status-light').className = 'status-light active';
+document.getElementById('reason').textContent = 'Sve usluge su trenutno dostupne.';
 
