@@ -50,6 +50,34 @@ header h1 {
 .status h2 {
     font-size: 1.2rem;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.status-light {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: blink 1s infinite;
+}
+
+.status-light.active {
+    background-color: green;
+}
+
+.status-light.inactive {
+    background-color: red;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
 }
 
 .status p {
@@ -93,30 +121,22 @@ header h1 {
     transform: scale(1.02);
 }
 
-.panel {
-    padding: 10px;
-    background-color: #f4f4f4;
-    display: none;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-top: 5px;
-}
-
-.panel p {
-    margin: 0;
-}
-
-/* Main Content */
-.main-content {
+/* Answer Panel */
+.answer-panel {
     flex: 1;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    min-height: 100px;
 }
 
-/* Smooth Transitions */
-* {
-    transition: all 0.3s ease;
+.answer-panel p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #555;
 }
