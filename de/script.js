@@ -40,13 +40,16 @@ const answers = {
             <strong>Catch-Up:</strong> Sehen Sie TV-Kanäle der letzten 3 Tage. Wählen Sie den Kanal, das Datum und den gewünschten Inhalt aus und klicken Sie auf <strong>Play</strong>.
         </p>
     `,
-    "Installation und Registrierung bei ProtonVPN.": `
-        <strong>Android:</strong> Die meisten Smartphones und Tablets verwenden Android. Sie können die Proton VPN-App kostenlos <a href="#" target="_blank">hier</a> herunterladen.<br><br>
-        <strong>iOS:</strong> Wenn Sie ein iPhone oder iPad besitzen, können Sie Proton VPN kostenlos <a href="#" target="_blank">hier</a> herunterladen.<br><br>
-        <strong>Windows:</strong> Proton VPN ist für Windows-Geräte kostenlos <a href="#" target="_blank">hier</a> erhältlich.<br><br>
-        <strong>macOS:</strong> Für Apple-Mac-Benutzer kann Proton VPN <a href="#" target="_blank">hier</a> installiert werden.<br><br>
-        <strong>Linux:</strong> Linux-Benutzer können Proton VPN für ihre Distribution <a href="#" target="_blank">hier</a> herunterladen.
-    `,
+"Installation und Registrierung bei ProtonVPN.": `
+    <strong>Android:</strong> Die meisten Smartphones und Tablets verwenden Android. Sie können die Proton VPN-App kostenlos <a href="#" target="_blank">hier</a> herunterladen.<br><br>
+    <strong>iOS:</strong> Wenn Sie ein iPhone oder iPad besitzen, können Sie Proton VPN kostenlos <a href="#" target="_blank">hier</a> herunterladen.<br><br>
+    <strong>Windows:</strong> Proton VPN ist für Windows-Geräte kostenlos <a href="#" target="_blank">hier</a> erhältlich.<br><br>
+    <strong>macOS:</strong> Für Apple-Mac-Benutzer kann Proton VPN <a href="#" target="_blank">hier</a> installiert werden.<br><br>
+    <strong>Linux:</strong> Linux-Benutzer können Proton VPN für ihre Distribution <a href="#" target="_blank">hier</a> herunterladen.<br><br>
+    <strong>Warum ProtonVPN verwenden?</strong><br>
+    ProtonVPN wird für IPTV-Dienste empfohlen, da Internetanbieter diese möglicherweise blockieren. ProtonVPN verbirgt Ihre IP-Adresse und verschlüsselt den Datenverkehr, um Einschränkungen zu umgehen und IPTV sicher und ungestört zu streamen. Außerdem verhindert es Geschwindigkeitsdrosselungen (Throttling) und ermöglicht den Zugriff auf geografisch blockierte Inhalte.
+`,
+
     "Preisliste und Zahlung.": `
         <h3>Preisliste</h3>
         <ul>
