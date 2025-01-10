@@ -64,7 +64,7 @@ const answers = {
             <li>12 mjeseci - €100</li>
         </ul>
         <p>Za dodatne informacije i upute oko plaćanja, kontaktirajte nas putem WhatsAppa klikom na sljedeći link:</p>
-        <a href="https://wa.me/385976688910?text=Pozdrav,%20želim%20postati%20Vaš%20korisnik%20i%20platiti%20uslugu." target="_blank">Kontaktirajte nas na WhatsApp</a>
+        <a href="https://wa.me/385976688910?text=Hallo,%20ich%20möchte%20Ihr%20Kunde%20werden%20und%20den%20Service%20bezahlen." target="_blank">Kontaktirajte nas na WhatsApp</a>
     `
 };
 
