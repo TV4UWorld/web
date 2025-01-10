@@ -1,24 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Language Selection</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>TV4U World</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="language-selection">
-        <h1>Select Language</h1>
-        <div class="flags">
-            <button onclick="setLanguage('hr')">
-                <img src="assets/images/hr-flag.png" alt="Hrvatski" />
-            </button>
-            <button onclick="setLanguage('en')">
-                <img src="assets/images/en-flag.png" alt="English" />
-            </button>
-            <button onclick="setLanguage('de')">
-                <img src="assets/images/de-flag.png" alt="Deutsch" />
-            </button>
+    <div class="container">
+        <header>
+            <img src="https://raw.githubusercontent.com/TV4UWorld/web/main/logo.png" alt="TV4U Logo" class="logo">
+            <h1>TV4U World</h1>
+        </header>
+        <div class="status">
+            <h2>
+                Status usluge: <span id="service-status">AKTIVNA</span>
+                <span id="status-light" class="status-light active"></span>
+            </h2>
+            <p id="reason">Sve usluge su trenutno dostupne.</p>
+        </div>
+        <div class="content">
+            <div class="menu">
+                <button class="accordion">GLOBAL TELECOM OTT OTV Aplikacija</button>
+                <button class="accordion">Instalacija i registracija na ProtonVPN.</button>
+                <button class="accordion">Cjenik usluge i plaćanje.</button>
+            </div>
+            <div class="answer-panel">
+                <p id="answer-text">Kliknite na pitanje s lijeve strane za odgovor.</p>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
