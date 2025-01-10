@@ -41,8 +41,8 @@ const answers = {
         </p>
         <h4>DIRECT DOWNLOAD OF THE APPLICATION</h4>
         <p>
-            <strong>Android/Google Play:</strong> http://aftv.news/903639 <br>
-            <strong>Windows:</strong> http://aftv.news/163058 <strong>Play</strong>.
+            <strong><a href="http://aftv.news/903639" target="_blank">Android/Google Play</a>.</strong><br>
+            <strong><a href="http://aftv.news/163058" target="_blank">Windows</a>.</strong>
         </p>
     `,
     "Installation and registration on ProtonVPN.": `
