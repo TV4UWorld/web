@@ -78,18 +78,17 @@ header h1 {
 /* Vertical menu */
 .menu {
     flex: 0 0 250px;
-    text-align: center; /* Centering buttons */
+    text-align: center;
     margin-bottom: 20px;
 }
 
 .accordion {
     display: block;
-    width: 90%; /* Reduced button width for better centering */
-    margin: 0 auto 10px auto; /* Buttons centered horizontally */
+    width: 90%;
+    margin: 0 auto 10px auto;
     padding: 10px 20px;
     background-color: #007BFF;
     color: #ffffff;
-    text-align: center;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -108,7 +107,6 @@ header h1 {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: left;
-    margin-top: -20px; /* Reduces spacing between question and answer */
     min-width: 300px;
 }
 
@@ -116,80 +114,6 @@ header h1 {
     margin: 0;
     font-size: 1rem;
     color: #333;
-}
-
-/* Responsiveness */
-@media (max-width: 1024px) {
-    .content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .menu {
-        width: 100%;
-    }
-
-    .accordion {
-        width: 90%; /* Centering buttons */
-        margin: 0 auto 10px auto;
-    }
-
-    .answer-panel {
-        width: 100%;
-        text-align: center; /* Centered answers */
-        margin-top: -15px; /* Answers closer on smaller screens */
-    }
-}
-
-@media (max-width: 768px) {
-    .status h2 {
-        flex-direction: column;
-    }
-
-    header img {
-        width: 60px;
-    }
-
-    header h1 {
-        font-size: 1.5rem;
-    }
-
-    .accordion {
-        font-size: 0.9rem;
-        padding: 8px 15px;
-    }
-
-    .menu {
-        align-items: center;
-        text-align: center;
-    }
-
-    .answer-panel {
-        margin-top: -10px; /* Minimal gap between buttons and answers */
-    }
-}
-
-@media (max-width: 480px) {
-    .container {
-        padding: 10px;
-    }
-
-    .status p {
-        font-size: 0.8rem;
-    }
-
-    .answer-panel p {
-        font-size: 0.9rem;
-    }
-
-    .accordion {
-        font-size: 0.85rem;
-        padding: 10px;
-    }
-
-    .answer-panel {
-        margin-top: -5px; /* Almost connected spacing for very small devices */
-    }
 }
 
 /* Language Selector */
@@ -220,15 +144,4 @@ header h1 {
 .language-selector .flag:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-/* Adjust for smaller screens */
-@media (max-width: 768px) {
-    .language-selector {
-        left: 5px;
-    }
-
-    .language-selector .flag {
-        width: 30px;
-    }
 }
