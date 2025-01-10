@@ -40,16 +40,15 @@ const answers = {
             <strong>Catch-Up:</strong> Watch TV channels from up to 3 days ago. Select the channel, date, and desired content, then click <strong>Play</strong>.
         </p>
     `,
-"Installation and registration on ProtonVPN.": `
-    <strong>Android:</strong> Most smartphones and tablets use Android. You can download the Proton VPN app for free <a href="#" target="_blank">here</a>.<br><br>
-    <strong>iOS:</strong> If you have an iPhone or iPad, you can download Proton VPN for free <a href="#" target="_blank">here</a>.<br><br>
-    <strong>Windows:</strong> Proton VPN is available for free download for Windows devices <a href="#" target="_blank">here</a>.<br><br>
-    <strong>macOS:</strong> For Apple Mac users, Proton VPN can be installed <a href="#" target="_blank">here</a>.<br><br>
-    <strong>Linux:</strong> Linux users can download Proton VPN for their distribution <a href="#" target="_blank">here</a>.<br><br>
-    <strong>Why use ProtonVPN?</strong><br>
-    ProtonVPN is recommended for IPTV services due to potential blocks by your internet provider. ProtonVPN masks your IP address and encrypts traffic, bypassing restrictions and ensuring secure, uninterrupted IPTV streaming. It also prevents speed throttling and allows access to geo-blocked content.
-`,
-
+    "Installation and registration on ProtonVPN.": `
+        <strong>Android:</strong> Most smartphones and tablets use Android. You can download the Proton VPN app for free <a href="#" target="_blank">here</a>.<br><br>
+        <strong>iOS:</strong> If you have an iPhone or iPad, you can download Proton VPN for free <a href="#" target="_blank">here</a>.<br><br>
+        <strong>Windows:</strong> Proton VPN is available for free download for Windows devices <a href="#" target="_blank">here</a>.<br><br>
+        <strong>macOS:</strong> For Apple Mac users, Proton VPN can be installed <a href="#" target="_blank">here</a>.<br><br>
+        <strong>Linux:</strong> Linux users can download Proton VPN for their distribution <a href="#" target="_blank">here</a>.<br><br>
+        <strong>Why use ProtonVPN?</strong><br>
+        ProtonVPN is recommended for IPTV services due to potential blocks by your internet provider. ProtonVPN masks your IP address and encrypts traffic, bypassing restrictions and ensuring secure, uninterrupted IPTV streaming. It also prevents speed throttling and allows access to geo-blocked content.
+    `,
     "Service pricing and payment.": `
         <h3>Service Pricing</h3>
         <ul>
