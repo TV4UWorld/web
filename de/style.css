@@ -1,4 +1,4 @@
-/* Opći stilovi */
+/* Allgemeine Stile */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f9f9f9;
@@ -30,7 +30,7 @@ header h1 {
     color: #007BFF;
 }
 
-/* Status sekcija */
+/* Statusbereich */
 .status {
     margin-bottom: 20px;
     padding: 10px;
@@ -75,17 +75,17 @@ header h1 {
     flex-wrap: wrap;
 }
 
-/* Vertikalni meni */
+/* Vertikales Menü */
 .menu {
     flex: 0 0 250px;
-    text-align: center; /* Centriranje gumba */
+    text-align: center; /* Zentrierung der Buttons */
     margin-bottom: 20px;
 }
 
 .accordion {
     display: block;
-    width: 90%; /* Smanjena širina gumba za bolje centriranje */
-    margin: 0 auto 10px auto; /* Gumbi centrirani po horizontali */
+    width: 90%; /* Reduzierte Breite der Buttons für bessere Zentrierung */
+    margin: 0 auto 10px auto; /* Buttons horizontal zentriert */
     padding: 10px 20px;
     background-color: #007BFF;
     color: #ffffff;
@@ -100,7 +100,7 @@ header h1 {
     background-color: #0056b3;
 }
 
-/* Panel za odgovore */
+/* Antwortbereich */
 .answer-panel {
     flex: 1;
     padding: 15px;
@@ -108,7 +108,7 @@ header h1 {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: left;
-    margin-top: -20px; /* Smanjuje razmak između pitanja i odgovora */
+    margin-top: -20px; /* Reduzierter Abstand zwischen Frage und Antwort */
     min-width: 300px;
 }
 
@@ -118,7 +118,7 @@ header h1 {
     color: #333;
 }
 
-/* Responzivnost */
+/* Responsivität */
 @media (max-width: 1024px) {
     .content {
         flex-direction: column;
@@ -130,14 +130,14 @@ header h1 {
     }
 
     .accordion {
-        width: 90%; /* Centriranje gumba */
+        width: 90%; /* Zentrierung der Buttons */
         margin: 0 auto 10px auto;
     }
 
     .answer-panel {
         width: 100%;
-        text-align: center; /* Odgovori centrirani */
-        margin-top: -15px; /* Još bliže odgovori na manjim ekranima */
+        text-align: center; /* Antworten zentriert */
+        margin-top: -15px; /* Näher an Antworten auf kleineren Bildschirmen */
     }
 }
 
@@ -165,7 +165,7 @@ header h1 {
     }
 
     .answer-panel {
-        margin-top: -10px; /* Minimalan razmak između gumba i odgovora */
+        margin-top: -10px; /* Minimaler Abstand zwischen Buttons und Antworten */
     }
 }
 
@@ -188,11 +188,11 @@ header h1 {
     }
 
     .answer-panel {
-        margin-top: -5px; /* Skoro spojen razmak za vrlo male uređaje */
+        margin-top: -5px; /* Fast kein Abstand für sehr kleine Geräte */
     }
 }
 
-/* Language Selector */
+/* Sprachauswahl */
 .language-selector {
     position: fixed;
     top: 50%;
@@ -222,7 +222,7 @@ header h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Adjust for smaller screens */
+/* Anpassung für kleinere Bildschirme */
 @media (max-width: 768px) {
     .language-selector {
         left: 5px;
@@ -232,4 +232,3 @@ header h1 {
         width: 30px;
     }
 }
-
