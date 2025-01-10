@@ -39,6 +39,11 @@ const answers = {
             <strong>Live TV with EPG:</strong> Prikazuje raspored TV programa s mogućnošću pregleda kada se što emitira.<br>
             <strong>Catch-Up:</strong> Gledajte TV kanale unazad do 3 dana. Odaberite kanal, datum i željeni sadržaj te kliknite <strong>Play</strong>.
         </p>
+        <h4>DIREKTNO PREUZIMANJE APLIKACIJE</h4>
+        <p>
+            <strong>Android/Google Play:</strong> http://aftv.news/903639 <br>
+            <strong>Windows:</strong> http://aftv.news/163058 <strong>Play</strong>.
+        </p>
     `,
 "Instalacija i registracija na ProtonVPN.": `
     <strong>Android:</strong> Većina pametnih telefona i tableta koristi Android. Proton VPN aplikaciju možete besplatno preuzeti <a href="#" target="_blank">ovdje</a>.<br><br>
