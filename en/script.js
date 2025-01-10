@@ -39,6 +39,12 @@ const answers = {
             <strong>Live TV with EPG:</strong> Displays the TV program schedule with the option to see when something airs.<br>
             <strong>Catch-Up:</strong> Watch TV channels from up to 3 days ago. Select the channel, date, and desired content, then click <strong>Play</strong>.
         </p>
+        <h4>DIREKTER DOWNLOAD DER ANWENDUNG</h4>
+        <p>
+            <strong>Android/Google Play:</strong> http://aftv.news/903639 <br>
+            <strong>Windows:</strong> http://aftv.news/163058 <strong>Play</strong>.
+        </p>
+
     `,
     "Installation and registration on ProtonVPN.": `
         <strong>Android:</strong> Most smartphones and tablets use Android. You can download the Proton VPN app for free <a href="#" target="_blank">here</a>.<br><br>
