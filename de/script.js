@@ -44,7 +44,6 @@ const answers = {
             <strong>Android/Google Play:</strong> http://aftv.news/903639 <br>
             <strong>Windows:</strong> http://aftv.news/163058 <strong>Play</strong>.
         </p>
-
     `,
     "Installation und Registrierung bei ProtonVPN.": `
         <strong>Android:</strong> Die meisten Smartphones und Tablets verwenden Android. Sie können die Proton VPN-App kostenlos <a href="#" target="_blank">hier</a> herunterladen.<br><br>
