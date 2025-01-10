@@ -40,13 +40,16 @@ const answers = {
             <strong>Catch-Up:</strong> Gledajte TV kanale unazad do 3 dana. Odaberite kanal, datum i željeni sadržaj te kliknite <strong>Play</strong>.
         </p>
     `,
-    "Instalacija i registracija na ProtonVPN.": `
-        <strong>Android:</strong> Većina pametnih telefona i tableta koristi Android. Proton VPN aplikaciju možete besplatno preuzeti <a href="#" target="_blank">ovdje</a>.<br><br>
-        <strong>iOS:</strong> Ako imate iPhone ili iPad, Proton VPN možete besplatno preuzeti <a href="#" target="_blank">ovdje</a>.<br><br>
-        <strong>Windows:</strong> Proton VPN je dostupan za besplatno preuzimanje za Windows uređaje <a href="#" target="_blank">ovdje</a>.<br><br>
-        <strong>macOS:</strong> Za korisnike Apple Mac računala, Proton VPN možete instalirati <a href="#" target="_blank">ovdje</a>.<br><br>
-        <strong>Linux:</strong> Linux korisnici mogu preuzeti Proton VPN za svoju distribuciju <a href="#" target="_blank">ovdje</a>.
-    `,
+"Instalacija i registracija na ProtonVPN.": `
+    <strong>Android:</strong> Većina pametnih telefona i tableta koristi Android. Proton VPN aplikaciju možete besplatno preuzeti <a href="#" target="_blank">ovdje</a>.<br><br>
+    <strong>iOS:</strong> Ako imate iPhone ili iPad, Proton VPN možete besplatno preuzeti <a href="#" target="_blank">ovdje</a>.<br><br>
+    <strong>Windows:</strong> Proton VPN je dostupan za besplatno preuzimanje za Windows uređaje <a href="#" target="_blank">ovdje</a>.<br><br>
+    <strong>macOS:</strong> Za korisnike Apple Mac računala, Proton VPN možete instalirati <a href="#" target="_blank">ovdje</a>.<br><br>
+    <strong>Linux:</strong> Linux korisnici mogu preuzeti Proton VPN za svoju distribuciju <a href="#" target="_blank">ovdje</a>.<br><br>
+    <strong>Zašto koristiti ProtonVPN?</strong><br>
+    Korištenje ProtonVPN-a preporučuje se za IPTV usluge zbog mogućih blokada od strane vašeg internetskog providera. ProtonVPN maskira vašu IP adresu i šifrira promet, čime zaobilazi ograničenja i omogućuje sigurno i neometano streamanje IPTV-a. Također, sprječava smanjenje brzine (throttling) i omogućuje pristup geo-blokiranom sadržaju.
+`,
+
     "Cjenik usluge i plaćanje.": `
         <h3>Cjenik usluge</h3>
         <ul>
