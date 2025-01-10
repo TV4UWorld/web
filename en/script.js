@@ -47,8 +47,9 @@ const answers = {
         <strong>macOS:</strong> For Apple Mac users, Proton VPN can be installed <a href="#" target="_blank">here</a>.<br><br>
         <strong>Linux:</strong> Linux users can download Proton VPN for their distribution <a href="#" target="_blank">here</a>.<br><br>
         <strong>Why use ProtonVPN?</strong><br>
-        ProtonVPN is recommended for IPTV services due to potential blocks by your internet provider. ProtonVPN masks your IP address and encrypts traffic, bypassing restrictions and ensuring secure, uninterrupted IPTV streaming. It also prevents speed throttling and allows access to geo-blocked content.
+        Using ProtonVPN is recommended for IPTV services due to potential blocks by your internet provider. ProtonVPN masks your IP address and encrypts traffic, bypassing restrictions and ensuring secure and uninterrupted IPTV streaming. It also prevents speed throttling and allows access to geo-blocked content.
     `,
+
     "Service pricing and payment.": `
         <h3>Service Pricing</h3>
         <ul>
